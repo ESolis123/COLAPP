@@ -1,0 +1,22 @@
+library my_prj.globals;
+
+final url='http://10.0.2.2:8000/user/';
+final urlCrearProducto ='http://10.0.2.2:8000/user/crearProducto/';
+final urlObtenerProductos ='http://10.0.2.2:8000/user/obtenerProductos/';
+final urlActualizarProducto ='http://10.0.2.2:8000/user/actualizarProducto/';
+final urlCrearProveedor ='http://10.0.2.2:8000/user/crearProveedor/';
+final urlObtenerProveedores ='http://10.0.2.2:8000/user/obtenerProveedores/';
+final urlActualizarProveedor ='http://10.0.2.2:8000/user/actualizarProveedor/';
+final urlObtenerTiposProductos ='http://10.0.2.2:8000/user/obtenerTiposProductos/';
+final urltoken = 'http://10.0.2.2:8000/user/api-token-auth/';
+final urlfilter= 'http://10.0.2.2:8000/user/filter/';
+final urlDetailUpdate='http://10.0.2.2:8000/user/detailupdate/';
+var user='';
+var token;
+var fechaCompra= DateTime.now();
+var fechaCreacion= DateTime.now();
+var fechaVencimiento= DateTime.now();
+var precioCompra= '0.00';
+var precioVenta= '0.00';
+var stock=0;
+var estado='No activo';
